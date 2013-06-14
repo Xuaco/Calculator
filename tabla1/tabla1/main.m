@@ -1,9 +1,9 @@
 //
 //  main.m
-//  calc1
+//  tabla1
 //
-//  Created by Laboratorio Ingeniería Software on 10/06/13.
-//  Copyright (c) 2013 Laboratorio Ingeniería Software. All rights reserved.
+//  Created by Xavier Ferre on 13/06/13.
+//  Copyright (c) 2013 Xuaco. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

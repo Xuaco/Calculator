@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		678C48631768799700999F0B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C48611768799700999F0B /* SecondViewController.m */; };
+		678C48641768799700999F0B /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 678C48621768799700999F0B /* SecondViewController.xib */; };
+		679D3B61176B152F00B7E3E3 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 679D3B60176B152F00B7E3E3 /* ThirdViewController.xib */; };
+		67E5F55D1769BC2A0006C955 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E5F55B1769BC2A0006C955 /* ThirdViewController.m */; };
 		C6CCCA461765D5D8003F98AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CCCA451765D5D8003F98AF /* UIKit.framework */; };
 		C6CCCA481765D5D8003F98AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CCCA471765D5D8003F98AF /* Foundation.framework */; };
 		C6CCCA4A1765D5D8003F98AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CCCA491765D5D8003F98AF /* CoreGraphics.framework */; };
@@ -23,6 +27,7 @@
 		C6CCCA6C1765D5D9003F98AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CCCA471765D5D8003F98AF /* Foundation.framework */; };
 		C6CCCA741765D5D9003F98AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6CCCA721765D5D9003F98AF /* InfoPlist.strings */; };
 		C6CCCA771765D5D9003F98AF /* calc1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCCA761765D5D9003F98AF /* calc1Tests.m */; };
+		C6CCCA821765EBC7003F98AF /* Calculadora.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCCA811765EBC7003F98AF /* Calculadora.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		678C48601768799700999F0B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		678C48611768799700999F0B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		678C48621768799700999F0B /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		679D3B60176B152F00B7E3E3 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		67E5F55A1769BC2A0006C955 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		67E5F55B1769BC2A0006C955 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		C6CCCA421765D5D8003F98AF /* calc1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calc1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6CCCA451765D5D8003F98AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C6CCCA471765D5D8003F98AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +69,8 @@
 		C6CCCA731765D5D9003F98AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C6CCCA751765D5D9003F98AF /* calc1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calc1Tests.h; sourceTree = "<group>"; };
 		C6CCCA761765D5D9003F98AF /* calc1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calc1Tests.m; sourceTree = "<group>"; };
+		C6CCCA801765EBC7003F98AF /* Calculadora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculadora.h; sourceTree = "<group>"; };
+		C6CCCA811765EBC7003F98AF /* Calculadora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculadora.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +132,17 @@
 			children = (
 				C6CCCA541765D5D8003F98AF /* AppDelegate.h */,
 				C6CCCA551765D5D8003F98AF /* AppDelegate.m */,
+				C6CCCA801765EBC7003F98AF /* Calculadora.h */,
+				C6CCCA811765EBC7003F98AF /* Calculadora.m */,
 				C6CCCA5D1765D5D8003F98AF /* ViewController.h */,
 				C6CCCA5E1765D5D8003F98AF /* ViewController.m */,
 				C6CCCA601765D5D8003F98AF /* ViewController.xib */,
+				678C48601768799700999F0B /* SecondViewController.h */,
+				678C48611768799700999F0B /* SecondViewController.m */,
+				678C48621768799700999F0B /* SecondViewController.xib */,
+				67E5F55A1769BC2A0006C955 /* ThirdViewController.h */,
+				67E5F55B1769BC2A0006C955 /* ThirdViewController.m */,
+				679D3B60176B152F00B7E3E3 /* ThirdViewController.xib */,
 				C6CCCA4C1765D5D8003F98AF /* Supporting Files */,
 			);
 			path = calc1;
@@ -236,6 +257,8 @@
 				C6CCCA5A1765D5D8003F98AF /* Default@2x.png in Resources */,
 				C6CCCA5C1765D5D8003F98AF /* Default-568h@2x.png in Resources */,
 				C6CCCA621765D5D8003F98AF /* ViewController.xib in Resources */,
+				678C48641768799700999F0B /* SecondViewController.xib in Resources */,
+				679D3B61176B152F00B7E3E3 /* ThirdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +296,9 @@
 				C6CCCA521765D5D8003F98AF /* main.m in Sources */,
 				C6CCCA561765D5D8003F98AF /* AppDelegate.m in Sources */,
 				C6CCCA5F1765D5D8003F98AF /* ViewController.m in Sources */,
+				C6CCCA821765EBC7003F98AF /* Calculadora.m in Sources */,
+				678C48631768799700999F0B /* SecondViewController.m in Sources */,
+				67E5F55D1769BC2A0006C955 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +479,7 @@
 				C6CCCA7C1765D5D9003F98AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6CCCA7D1765D5D9003F98AF /* Build configuration list for PBXNativeTarget "calc1Tests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +488,7 @@
 				C6CCCA7F1765D5D9003F98AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

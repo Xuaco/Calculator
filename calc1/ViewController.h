@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *input1;
+@property (weak, nonatomic) IBOutlet UITextField *input2;
+- (IBAction)suma:(id)sender;
+- (IBAction)resta:(id)sender;
+- (IBAction)multiplica:(id)sender;
+- (IBAction)divide:(id)sender;
+- (IBAction)tabla:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *resultado;
 
 @end

@@ -8,7 +8,7 @@
 // comentarios nuevos desde master
 
 // ver gestos en http://developer.apple.com/library/ios/#samplecode/SimpleGestureRecognizers/Listings/SimpleGestureRecognizers_APLGestureRecognizerViewController_m.html#//apple_ref/doc/uid/DTS40009460-SimpleGestureRecognizers_APLGestureRecognizerViewController_m-DontLinkElementID_5
-
+// aqui no daria problemas
 
 #import "ThirdViewController.h"
 #import "SecondViewController.h"
